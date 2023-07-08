@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import outputcss from '../dist/output.css'
 
-createApp(App).mount('#app')
+createApp(App).use(outputcss).mount('#app')
